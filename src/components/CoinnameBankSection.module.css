@@ -1,0 +1,37 @@
+.frameChild {
+  width: 88px;
+  position: relative;
+  border-radius: var(--br-xl);
+  height: 88px;
+  object-fit: cover;
+}
+.coinnameBank,
+.signIn {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.signIn {
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.coinnameBankParent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.rectangleParent {
+  height: 223px;
+  padding: var(--padding-xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

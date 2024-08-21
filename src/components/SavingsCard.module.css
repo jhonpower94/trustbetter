@@ -1,0 +1,60 @@
+.whenCommunityComes,
+.whenCommunityComes1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--buttontext-size);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--headertext);
+  color: var(--textdark);
+  text-align: left;
+}
+.whenCommunityComes1 {
+  font-size: var(--headertext-size);
+  font-weight: 500;
+  font-family: var(--buttontext);
+}
+.whenCommunityComesUnityParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.select {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--buttontext);
+  color: var(--background);
+  text-align: center;
+}
+.frameParent,
+.selectWrapper {
+  cursor: pointer;
+  border: 1px solid var(--textgrey);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selectWrapper {
+  padding: var(--padding-3xs);
+  background-color: var(--primary);
+  width: 250px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  max-width: 300px;
+}
+.frameParent {
+  padding: var(--padding-9xl) var(--padding-xl) var(--padding-3xs);
+  background-color: var(--background);
+  border-radius: var(--br-mini);
+  height: 216px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}

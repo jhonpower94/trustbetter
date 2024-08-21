@@ -1,0 +1,74 @@
+.useravatarIcon {
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-base);
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.username,
+.welcomeBack {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 160%;
+  font-family: var(--font-inter);
+  color: var(--textdark);
+  text-align: left;
+}
+.username {
+  font-size: var(--buttontext-size);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--buttontext);
+}
+.userinfo,
+.welcomeBackParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userinfo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.settingsIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.notificationbutton {
+  cursor: pointer;
+  border: 1px solid var(--textgrey);
+  padding: var(--padding-5xs);
+  background-color: var(--background);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  align-items: flex-start;
+}
+.notificationbutton,
+.notificationbuttonParent,
+.userinfoParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.notificationbuttonParent {
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.userinfoParent {
+  align-self: stretch;
+  height: 68px;
+  align-items: center;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 0;
+}

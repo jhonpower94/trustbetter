@@ -1,0 +1,57 @@
+.frameChild {
+  width: 26px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: 2px solid var(--textgrey);
+  box-sizing: border-box;
+  height: 26px;
+}
+.whenCommunityComes {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.ellipseParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--background);
+  border: 1px solid var(--textgrey);
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+  gap: var(--gap-xl);
+}
+.frameItem {
+  width: 26px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 2px solid var(--textgrey);
+  box-sizing: border-box;
+  height: 26px;
+}
+.frameParent,
+.sendtypeInner {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px 14px;
+}
+.sendtypeInner {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--buttontext-size);
+  color: var(--textdark);
+  font-family: var(--buttontext);
+}

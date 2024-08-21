@@ -1,0 +1,108 @@
+.slidebutton,
+.slidebutton1 {
+  cursor: pointer;
+  border: 1px solid var(--textgrey);
+  padding: 0;
+  background-color: var(--primary);
+  width: 101px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  height: 12px;
+}
+.slidebutton1 {
+  background-color: var(--background);
+  width: 102px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup,
+.slideindicators {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.slideindicators {
+  height: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.whenCommunityComes,
+.whenCommunityComes1 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.whenCommunityComes1 {
+  font-size: var(--buttontext-size);
+  font-weight: 600;
+}
+.whenCommunityComesUnityParent {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--background);
+  border: 1px solid var(--textgrey);
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-8xl);
+  gap: var(--gap-9xs);
+}
+.frameContainer,
+.whenCommunityComesUnityGroup,
+.whenCommunityComesUnityParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whenCommunityComesUnityGroup {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--primary);
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-8xl);
+  gap: var(--gap-9xs);
+  color: var(--background);
+}
+.frameContainer {
+  height: 100px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.loanIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  object-fit: cover;
+}
+.frameParent,
+.hometab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  height: 902.5px;
+  gap: var(--gap-21xl);
+  z-index: 1;
+}
+.hometab {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-paper);
+  height: 956px;
+  overflow: hidden;
+  padding: var(--padding-mini) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--textdark);
+  font-family: var(--buttontext);
+}

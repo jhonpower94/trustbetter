@@ -1,0 +1,73 @@
+.homeIcon {
+  width: 30px;
+  position: relative;
+  height: 33.8px;
+}
+.tab {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--primary);
+  flex: 1;
+  border-radius: var(--br-19xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.swapHorizIcon {
+  width: 33.7px;
+  position: relative;
+  height: 27px;
+}
+.tab1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-19xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.creditCardIcon {
+  width: 33.8px;
+  position: relative;
+  height: 27px;
+}
+.tabcontainer,
+.tabs {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.tabs {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--background);
+  border: 1px solid var(--textgrey);
+  height: 89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.tabcontainer {
+  width: 100%;
+  margin: 0 !important;
+  position: fixed;
+  height: 13.6%;
+  top: 86.4%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(243, 243, 243, 0.17), #fff);
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 2;
+}

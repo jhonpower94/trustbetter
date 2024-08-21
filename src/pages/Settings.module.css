@@ -1,0 +1,154 @@
+.image1Icon {
+  width: 83px;
+  position: relative;
+  height: 22px;
+  object-fit: cover;
+}
+.rectangle36Copy5,
+.rightIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+}
+.rightIcon {
+  top: 2.8px;
+  left: 5.5px;
+  width: 11px;
+  height: 16.5px;
+}
+.rectangle36Copy5Parent {
+  width: 22px;
+  position: relative;
+  height: 22px;
+  opacity: 0.65;
+  mix-blend-mode: normal;
+}
+.frameParent,
+.image1Parent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+}
+.image1Parent {
+  cursor: pointer;
+  border: 1px solid var(--textgrey);
+  padding: 0 var(--padding-xl);
+  background-color: var(--background);
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 67px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameParent {
+  flex: 1;
+  background-color: var(--background-paper);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 264px var(--padding-11xl) 0;
+  gap: var(--gap-21xl);
+  z-index: 0;
+}
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 20px;
+}
+.vectorWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 27px;
+  position: relative;
+  height: 20px;
+}
+.settings1 {
+  width: 221px;
+  position: relative;
+  line-height: 135%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  flex-shrink: 0;
+}
+.frameGroup,
+.settingsInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-16xl);
+}
+.settingsInner {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  height: 16.5%;
+  top: 0;
+  right: 0;
+  bottom: 83.5%;
+  left: 0;
+  background-color: var(--primary);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.settingsIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.settings,
+.settingsWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.settingsWrapper {
+  width: 60px;
+  margin: 0 !important;
+  position: absolute;
+  height: calc(100% - 1019px);
+  top: 148px;
+  bottom: 871px;
+  left: 40px;
+  border-radius: var(--br-31xl);
+  background-color: var(--background);
+  border: 1px solid var(--textgrey);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  z-index: 2;
+}
+.settings {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-paper);
+  height: 1079px;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--headertext-size);
+  color: var(--background);
+  font-family: var(--headertext);
+}

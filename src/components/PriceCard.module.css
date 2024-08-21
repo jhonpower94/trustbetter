@@ -1,0 +1,68 @@
+.div,
+.salaryCard {
+  position: relative;
+}
+.div {
+  font-size: var(--font-size-21xl);
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--background);
+}
+.salaryCardParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameChild {
+  width: 57px;
+  height: 33px;
+  object-fit: cover;
+}
+.expiryParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-81xl);
+}
+.expiryParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-2xl);
+  text-align: right;
+  font-size: var(--font-size-5xl);
+  color: var(--basic-transparent-white);
+}
+.card,
+.iphone13ProMax8 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+}
+.card {
+  border-radius: var(--br-xs);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-6xl);
+  background-image: url(/public/-card@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.iphone13ProMax8 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--buttontext-size);
+  color: var(--color-lightskyblue);
+  font-family: var(--headertext);
+}

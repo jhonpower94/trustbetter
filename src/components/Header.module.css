@@ -1,0 +1,37 @@
+.transfer {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  font-weight: 500;
+}
+.notificationIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.notificationbutton,
+.transferParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.notificationbutton {
+  cursor: pointer;
+  border: 1px solid var(--textgrey);
+  padding: var(--padding-5xs);
+  background-color: var(--background);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.transferParent {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-16xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--headertext-size);
+  color: var(--background);
+  font-family: var(--headertext);
+}

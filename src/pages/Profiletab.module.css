@@ -1,0 +1,223 @@
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 20px;
+}
+.vectorWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 27px;
+  position: relative;
+  height: 20px;
+}
+.frameGroup,
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  width: 221px;
+  position: relative;
+  line-height: 135%;
+  font-weight: 500;
+  height: 55px;
+  flex-shrink: 0;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-16xl);
+  z-index: 0;
+}
+.frameChild {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% + 22px);
+  left: calc(50% - 72px);
+  max-width: 100%;
+  overflow: hidden;
+  height: 180px;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameParent {
+  background-color: var(--primary);
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameParent,
+.profiletabInner {
+  align-self: stretch;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.address {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.frame1 {
+  border: 1px solid var(--color-dimgray-100);
+  outline: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-sm);
+  background-color: var(--background);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  height: 58px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-3xs);
+  color: var(--color-gray-300);
+}
+.copy,
+.frame2 {
+  align-self: stretch;
+}
+.copy {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: center;
+}
+.frame2 {
+  cursor: pointer;
+  border: 1px solid var(--color-dimgray-100);
+  padding: var(--padding-mini) var(--padding-2xs);
+  background-color: var(--background);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.frame,
+.frame4,
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.frame,
+.frame4 {
+  height: 92px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+}
+.frame4 {
+  border: 1px solid var(--color-dimgray-100);
+  outline: 0;
+  font-size: var(--font-size-sm);
+  background-color: var(--background);
+  border-radius: var(--br-5xs);
+  height: 58px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-lgi) var(--padding-3xs);
+  color: var(--color-gray-300);
+}
+.frame4,
+.frame8,
+.save {
+  font-family: var(--font-roboto);
+}
+.frame8 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--background);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  height: 58px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-3xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+}
+.save {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--background);
+  text-align: center;
+}
+.lightbutton {
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  padding: var(--padding-3xs) 0;
+  background-color: var(--primary);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.lightbuttonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+}
+.frameContainer,
+.profiletab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
+.profiletab {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-paper);
+  overflow: hidden;
+  gap: 151px;
+  text-align: left;
+  font-size: var(--headertext-size);
+  color: var(--background);
+  font-family: var(--headertext);
+}

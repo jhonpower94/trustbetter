@@ -1,0 +1,62 @@
+.transfertabChild {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 30.73%;
+  top: 0;
+  right: 0;
+  bottom: 69.27%;
+  left: 0;
+  background-color: var(--primary);
+  overflow: hidden;
+  z-index: 0;
+}
+.whenCommunityComes {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.frameGroup,
+.whenCommunityComesUnityWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.transfertab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.transfertab {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-paper);
+  height: 898px;
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--background);
+  font-family: var(--buttontext);
+}

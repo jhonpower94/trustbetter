@@ -1,0 +1,90 @@
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 20px;
+}
+.backbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 27px;
+  position: relative;
+  height: 20px;
+}
+.backbuttonParent,
+.type {
+  display: flex;
+  align-items: center;
+}
+.type {
+  width: 221px;
+  position: relative;
+  line-height: 135%;
+  font-weight: 500;
+  height: 55px;
+  flex-shrink: 0;
+}
+.backbuttonParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.sendtypeInner,
+.whenCommunityComes {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.sendtypeInner {
+  border-bottom: 1px solid var(--textgrey);
+  box-sizing: border-box;
+  height: 66px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-11xl);
+}
+.whenCommunityComes {
+  position: relative;
+  font-size: var(--buttontext-size);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--buttontext);
+  color: var(--background);
+  text-align: center;
+  align-items: center;
+  height: 64px;
+  flex-shrink: 0;
+}
+.sendtype,
+.whenCommunityComesUnityWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whenCommunityComesUnityWrapper {
+  cursor: pointer;
+  border: 1px solid var(--textgrey);
+  padding: 0;
+  background-color: var(--primary);
+  width: 193px;
+  border-radius: var(--br-19xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.sendtype {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-paper);
+  height: 767px;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  text-align: left;
+  font-size: var(--headertext-size);
+  color: var(--buttonbackgroud);
+  font-family: var(--headertext);
+}

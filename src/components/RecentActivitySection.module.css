@@ -1,0 +1,49 @@
+.whenCommunityComes {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.whenCommunityComes1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--buttontext);
+  color: var(--primary);
+  text-align: left;
+}
+.whenCommunityComesUnityWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 55px;
+  position: relative;
+  height: 22px;
+}
+.frameParent,
+.transactinlist,
+.whenCommunityComesUnityParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameParent,
+.transactinlist {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.transactinlist {
+  height: 344px;
+}
+.frameParent {
+  text-align: left;
+  font-size: var(--buttontext-size);
+  color: var(--textdark);
+  font-family: var(--buttontext);
+}

@@ -1,0 +1,69 @@
+.address {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.copy,
+.frame1 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+}
+.frame1 {
+  border: 1px solid var(--color-dimgray-100);
+  outline: 0;
+  background-color: var(--background);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  height: 58px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-3xs);
+  color: var(--color-gray-300);
+}
+.copy {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  color: var(--color-gray-100);
+  text-align: center;
+}
+.frame,
+.frame2,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.frame2 {
+  cursor: pointer;
+  border: 1px solid var(--color-dimgray-100);
+  padding: var(--padding-mini) var(--padding-2xs);
+  background-color: var(--background);
+  border-radius: var(--br-5xs);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.frame,
+.frameParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame {
+  height: 92px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--dark);
+  font-family: var(--buttontext);
+}

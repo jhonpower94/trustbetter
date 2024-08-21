@@ -1,0 +1,61 @@
+.dribbbleIcon {
+  width: 45px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.minAgo,
+.whenCommunityComes {
+  position: relative;
+  font-family: var(--buttontext);
+  text-align: left;
+}
+.whenCommunityComes {
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  font-weight: 600;
+  color: var(--textdark);
+}
+.minAgo {
+  font-size: var(--font-size-xs);
+  line-height: 160%;
+  color: var(--buttonbackgroud);
+}
+.whenCommunityComesUnityParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.dribbbleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.whenCommunityComes1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  font-family: var(--buttontext);
+  color: var(--textdark);
+  white-space: pre-wrap;
+  text-align: right;
+}
+.frameParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

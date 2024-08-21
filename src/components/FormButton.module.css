@@ -1,0 +1,38 @@
+.send,
+.sendIcon {
+  position: relative;
+}
+.sendIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.send {
+  font-size: var(--font-size-sm);
+  line-height: 160%;
+  font-family: var(--buttontext);
+  color: var(--textdark);
+  text-align: center;
+}
+.sendParent,
+.sendbutton {
+  display: flex;
+  align-items: center;
+}
+.sendParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.sendbutton {
+  cursor: pointer;
+  border: 1px solid var(--textgrey);
+  padding: var(--padding-3xs) var(--padding-4xl);
+  background-color: var(--background-paper);
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+}

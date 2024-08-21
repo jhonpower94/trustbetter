@@ -1,0 +1,22 @@
+.button {
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.activeon {
+  width: 343px;
+  border-radius: var(--br-xs);
+  background-color: var(--primary1);
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--background);
+  font-family: var(--font-sf-pro-text);
+}

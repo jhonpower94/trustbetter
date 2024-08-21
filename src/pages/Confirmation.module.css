@@ -1,0 +1,66 @@
+.checkIcon {
+  width: 58.97%;
+  position: absolute;
+  margin: 0 !important;
+  height: 58.97%;
+  top: 20.51%;
+  right: 20.51%;
+  bottom: 20.51%;
+  left: 20.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 0;
+}
+.iconCheck {
+  border-radius: var(--br-31xl);
+  background-color: #028807;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.aleksanderDmitrievichV {
+  font-size: 17px;
+  line-height: 24px;
+}
+.aleksanderDmitrievichV,
+.div,
+.noCommission {
+  position: relative;
+  letter-spacing: -0.41px;
+}
+.div {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.noCommission {
+  line-height: 16px;
+  opacity: 0.6;
+}
+.confirmation,
+.iconCheckParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconCheckParent {
+  align-self: stretch;
+  gap: 13px;
+}
+.confirmation {
+  width: 100%;
+  position: relative;
+  background-color: var(--grey);
+  padding: 100px 0;
+  box-sizing: border-box;
+  gap: 25px;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--dark);
+  font-family: var(--headertext);
+}
